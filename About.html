@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+  <style>
+    .ico {
+
+      color: #5e76ab;
+
+
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    input:focus,
+    select:focus,
+    button:focus,
+    textarea:focus {
+      outline: none;
+    }
+
+
+
+    ul,
+    ol {
+      padding: 0;
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none !important;
+    }
+
+
+    .plus {
+      color: #f90502 !important;
+    }
+
+    .plus:hover {
+
+      color: #f90502 !important;
+
+    }
+
+
+
+
+    .nav-bg {
+      background-color: #ffbf00;
+    }
+
+    .blog {
+
+      border-radius: 30px;
+      font-size: 14px !important;
+      font-weight: 700;
+      padding: 9px 17px !important;
+      border: 2px solid #5e76ab;
+      background-color: #ffffff;
+
+    }
+
+    .blog:hover {
+
+
+      background-color: #f90502;
+      color: #fff !important;
+      border: 2px solid #f90502;
+
+    }
+
+    .blog1 {
+
+      border-radius: 30px;
+      font-size: 14px !important;
+      font-weight: 700;
+      padding: 9px 17px !important;
+      border: 2px solid #f90502;
+      background-color: #ffffff;
+      text-align: center !important;
+
+    }
+
+
+
+    .blog1:hover {
+
+
+      background-color: #f90502;
+      color: #fff !important;
+      border: 2px solid #f90502;
+
+    }
+
+
+
+    .blog2 {
+
+      border-radius: 7px;
+      font-size: 18px !important;
+      font-weight: 700;
+      padding: 12px 147px !important;
+      border: 1px solid #f90502;
+      background-color: #f90502;
+      color: white;
+
+
+
+    }
+
+    .blog2:hover {
+
+      background-color: #fff;
+      color: #f90502;
+    }
+
+    .viewmore {
+
+      border-radius: 7px;
+      font-size: 10px !important;
+      font-weight: 600;
+      padding: 9px 30px !important;
+      border: 1px solid #f90502;
+      background-color: #f90502;
+      color: white;
+    }
+
+
+
+    .viewmore:hover {
+
+      background-color: #fff;
+      color: #f90502;
+    }
+
+    .quateButton {
+
+      border-radius: 7px;
+      font-size: 15px !important;
+      font-weight: 700;
+      padding: 9px 10px !important;
+      border: 1px solid #f90502;
+      background-color: #f90502;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+
+
+
+    .quateButton:hover {
+
+      background-color: #fff;
+      color: #f90502;
+    }
+
+
+
+    .quateButton1 {
+
+      border-radius: 7px;
+      font-size: 15px !important;
+      font-weight: 600;
+      padding: 9px 10px !important;
+      border: 1px solid #f90502;
+      background-color: #f90502;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+
+
+
+
+    .quateButton1 i {
+
+      margin-right: 3px;
+
+    }
+
+    .botm {
+
+      text-align: center;
+      margin-right: 15px;
+
+
+      border: 1px solid #7d7d7d;
+
+
+    }
+
+
+
+    @media(max-width:400px) {
+
+
+      .quateButton1 {
+        border-radius: 7px;
+        font-size: 15px !important;
+        font-weight: 600;
+        padding: 9px 10px !important;
+        border: 1px solid #f90502;
+        background-color: #f90502;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+
+
+    }
+
+    .place {
+      display: flex;
+
+    }
+
+    .div1 {
+
+      width: 100%;
+      margin: 5px;
+      position: relative;
+
+
+    }
+
+    .place div img {
+
+      border-radius: 20px;
+    }
+
+
+
+
+    .place1 {
+
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+
+    }
+
+
+    .place p {
+      color: #fff;
+      font-size: 9px;
+      font-weight: 400;
+
+    }
+
+
+
+
+
+    @media(max-width:1147px) {
+
+      .place p {
+        color: #fff;
+
+        font-size: 5px;
+        font-weight: 400;
+
+      }
+
+
+      .place div img {
+
+        border-radius: 2px;
+      }
+
+    }
+
+    @media(max-width:800px) {
+
+
+
+      .div1 {
+
+        width: 100%;
+        height: auto;
+        margin: 2px;
+        position: relative;
+
+
+      }
+
+
+
+      .place1 {
+
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+
+      }
+
+
+
+      .place p {
+        color: #fff;
+
+        font-size: 2px;
+        font-weight: 300;
+
+
+      }
+
+
+      .place div img {
+
+        border-radius: 3px;
+      }
+
+
+
+    }
+
+
+
+
+
+    .phone {
+      color: #0f4392 !important;
+      font-weight: 600;
+      margin-top: 28px !important;
+
+      font-size: 17px;
+
+
+    }
+
+    .phone :hover {
+      color: #0F4392 !important;
+    }
+
+
+    .fot {
+
+      background-color: #000249;
+
+    }
+
+    .hovr i {
+
+      margin-right: 5px;
+    }
+
+    .plus i {
+      margin-right: 5px;
+    }
+
+
+    .phone i {
+      margin-right: 5px;
+    }
+
+
+
+    @media(max-width:480px) {
+
+
+
+      .num1 {
+        display: block !important;
+
+      }
+
+      .num {
+        display: none !important;
+      }
+
+
+      .logo {
+
+        width: 24px;
+        height: 24px;
+
+      }
+
+      .quateButton {
+
+        border-radius: 7px !important;
+        font-size: 4px !important;
+        font-weight: 300;
+        border: 1px solid #f90502;
+        background-color: #f90502;
+        color: white;
+        margin-top: 0px;
+      }
+
+
+    }
+
+    .drop:hover {
+      color: #F90502 !important;
+      font-weight: 800;
+    }
+
+    .toggle {
+      color: #F90502 !important;
+    }
+
+    .hamburger {
+      position: relative;
+      display: block;
+      width: 37px;
+      cursor: pointer;
+      appearance: none;
+      background: none;
+      outline: none;
+      border: none;
+    }
+
+    .btnn {
+      position: relative;
+      display: block;
+
+      cursor: pointer;
+      margin: 0px 0px;
+
+
+    }
+
+    .hamburger .bar,
+    .hamburger:after,
+    .hamburger:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 5px;
+      background-color: #fff;
+      margin: 6px 0px;
+      transition: 0.4s;
+    }
+
+    .hamburger.is-active:before {
+      transform: rotate(-45deg) translate(-8px, 6px);
+    }
+
+    .hamburger.is-active:after {
+      transform: rotate(45deg) translate(-9px, -8px);
+    }
+
+    .hamburger.is-active .bar {
+      opacity: 0;
+    }
+
+    .mobile-nav {
+      position: fixed;
+      top: 0px;
+      left: -100%;
+      width: 100%;
+      max-width: 310px;
+      min-height: 100vh;
+      display: block;
+      z-index: 98;
+      background-color: #ffbf00;
+      padding-top: 90px;
+      transition: 0.4s;
+      display: block;
+
+
+    }
+
+    @media only screen and (min-width: 480px) and (max-width:992px) {
+
+      .mobile-nav {
+
+        max-width: 440px;
+
+      }
+
+
+
+
+      .mobile-nav div::after {
+        content: "\203A";
+        font-size: 35px;
+        font-weight: 500;
+        position: absolute;
+        left: 410px !important;
+        margin-top: -14px;
+        transition: 0.2s;
+      }
+
+
+
+    }
+
+
+
+
+
+
+    .mobile-nav .socialIcon {
+
+      width: 100%;
+
+      text-decoration: none;
+      margin: 22px !important;
+
+    }
+
+    @media only screen and (min-width: 481px) and (max-width:1200px) {
+
+
+
+      .mobile-nav .socialIcon {
+
+        display: block !important;
+
+      }
+
+    }
+
+    .socialIcon {
+
+      border-bottom: none !important;
+
+      list-style: none !important;
+      font-size: 20px !important;
+
+    }
+
+    .socialIcon a i {
+
+
+      position: relative;
+      width: 30px;
+      height: 30px;
+      border-radius: 20%;
+      background-color: #fff;
+      text-align: center;
+      transition: .6s;
+      box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+      margin-right: 20px;
+      padding: 8px;
+
+
+    }
+
+    .socialMedia i {
+
+      color: #1877f2;
+
+    }
+
+
+
+    .socialMedia1 i {
+
+      color: #1da1f2;
+
+    }
+
+
+    .socialMedia2 i {
+
+      color: #0a66c2;
+
+    }
+
+
+    .socialMedia3 i {
+
+      color: #ff0000;
+
+    }
+
+
+
+
+
+
+    @media only screen and (min-width: 1200px) {
+      .containerNav {
+        max-width: 1170px;
+      }
+    }
+
+
+
+    .mobile-nav.is-active {
+      left: 0;
+    }
+
+    .mobile-nav i {
+
+      margin-right: 5px;
+    }
+
+    .mobile-nav div {
+      display: block;
+      width: 100%;
+      padding: 15px 26px;
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px solid #fff;
+
+
+    }
+
+
+    .mobile-nav a {
+
+
+
+      color: #fff;
+      font-weight: 700;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 14px;
+
+    }
+
+
+    .mobile-nav div::after {
+      content: "\203A";
+      font-size: 35px;
+      font-weight: 500;
+      position: absolute;
+      left: 285px;
+      margin-top: -14px;
+      transition: 0.2s;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+
+
+    .mobile {
+      display: flex;
+    }
+
+
+    @media only screen and (min-width: 768px) and (max-width:992px) {
+
+      .logo {
+
+        margin-left: 120px !important;
+      }
+
+
+    }
+
+
+
+
+    @media only screen and (min-width: 481px) and (max-width:992px) {
+
+
+      .num1 {
+        display: block !important;
+      }
+
+      .num {
+        display: none !important;
+      }
+
+    }
+
+
+
+    @media(max-width:1080px) {}
+
+
+    @media (min-width: 768px) {
+      .mobile-nav {
+        display: none !important;
+      }
+
+      .hamburger {
+        display: none;
+
+
+      }
+    }
+
+    .button {
+      appearance: none;
+      border: none;
+      outline: none;
+      background: none;
+      display: inline-block;
+      color: #fff;
+      font-size: 20px;
+      background-color: #ff9fdb;
+      padding: 12px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    @media (max-width: 767px) {
+      .button {
+        font-size: 18px;
+      }
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    header {
+      color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 99;
+    }
+
+    header .navBar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 20px;
+
+    }
+
+    header .navBar h2 {
+      color: inherit;
+      text-transform: uppercase;
+      font-size: 32px;
+      font-weight: 900;
+    }
+
+    header .navBar h2 span {
+      font-weight: 600;
+    }
+
+    @media (max-width: 767px) {
+      header .navBar nav {
+        display: none;
+      }
+    }
+
+    header nav a {
+
+
+      text-decoration: none;
+
+      font-size: 14px !important;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0px;
+
+
+
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+
+      margin-right: 35px !important;
+      position: relative;
+      display: inline-block;
+
+    }
+
+    header nav a i {
+      color: #000 !important;
+    }
+
+
+    header nav a:hover {
+      color: #000 !important;
+    }
+
+
+
+    header nav a.active {
+      color: #f90502 !important;
+      border-bottom: 3px solid #0F4392 !important;
+    }
+
+
+
+    header nav a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 3px;
+      background: #000;
+      transition: width .2s;
+    }
+
+    header nav a:hover::after {
+      width: 100%;
+
+
+    }
+
+    @media (max-width: 767px) {
+      .hide-mob {
+        display: none;
+      }
+    }
+
+
+
+    @media (max-width: 768px) {
+      .hiden {
+
+        margin: auto !important;
+      }
+    }
+
+    .login {
+      color: #fff;
+      margin-left: -10px;
+      font-weight: 700;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 14px;
+
+    }
+
+    .mob {
+      margin-left: 5px;
+    }
+
+    @media(max-width:1099px) {
+
+
+      header nav a {
+        text-decoration: none;
+
+        font-size: 12px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+
+
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        color: #6c6c6c;
+
+        margin-right: 12px !important;
+        position: relative;
+
+      }
+
+
+      .mobile-nav {
+        display: none !important;
+      }
+
+      .hamburger {
+        display: none !important;
+
+
+      }
+
+      .hiden {
+
+        margin: 0px !important;
+      }
+
+
+      /*
+    .num {
+      display: block !important;
+    }
+  */
+
+      .quateButton {
+
+        border-radius: 7px;
+        font-size: 12px !important;
+        font-weight: 700;
+        padding: 9px 18px !important;
+        border: 1px solid #f90502;
+        background-color: #f90502;
+        color: white;
+      }
+
+    }
+
+
+
+
+
+
+    @media(max-width:992px) {
+
+
+      .mobile-nav {
+        display: block !important;
+      }
+
+      .hamburger {
+        display: block !important;
+
+
+      }
+
+
+      header nav a {
+        display: none !important;
+
+      }
+    }
+
+
+    .social i {
+
+      margin-right: 10px;
+      color: #333333;
+    }
+
+
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      display: inline-block;
+    }
+
+    @media(max-width:1199px) {
+
+      .logo {
+
+        width: 180px !important;
+
+
+      }
+
+      .phone {
+        font-size: 15px !important;
+      }
+
+    }
+
+
+    @media(max-width:1099px) {
+      .logo {
+
+        width: auto !important;
+
+
+
+      }
+
+
+    }
+
+    @media (max-width:992px) {
+
+      .overlay {
+        position: fixed !important;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        content: "";
+        z-index: 98;
+        display: none;
+
+      }
+
+    }
+
+    @media only screen and (max-width: 1400px) {
+
+
+      .mobile-nav.show__humberger__menu__wrapper {
+        opacity: 1;
+        left: 0;
+      }
+
+      .humberger__menu__overlay {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        content: "";
+        z-index: 98;
+        visibility: hidden;
+        -webkit-transition: all, 0.1s;
+        -moz-transition: all, 0.1s;
+        -ms-transition: all, 0.1s;
+        -o-transition: all, 0.1s;
+        transition: all, 0.1s;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .humberger__menu__overlay.active {
+        visibility: visible;
+        z-index: 98;
+      }
+
+      .over_hid {
+        overflow: hidden;
+
+      }
+
+    }
+
+
+    body {
+      overflow-x: hidden;
+    }
+
+
+
+
+
+
+
+    /*-------------------------*/
+
+    section {
+            padding: 60px 0;
+           /* min-height: 100vh;*/
+        }
+
+.sec-title{
+  position:relative;
+  z-index: 1;
+  margin-bottom:60px;
+}
+
+.sec-title .title{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffbf00;
+ 
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.sec-title h2{
+  position: relative;
+  display: block;
+  font-size:40px;
+  line-height: 1.28em;
+  color: #222222;
+  font-weight: 600;
+  padding-bottom:18px;
+}
+
+.sec-title h2:before{
+  position:absolute;
+  content:'';
+  left:0px;
+  bottom:0px;
+  width:50px;
+  height:3px;
+  background-color:#d1d2d6;
+}
+
+.sec-title .text{
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  color: #848484;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+.sec-title.light h2{
+  color: #ffffff;
+}
+
+.sec-title.text-center h2:before{
+  left:50%;
+  margin-left: -25px;
+}
+
+.list-style-one{
+  position:relative;
+}
+
+.list-style-one li{
+  position:relative;
+  font-size:16px;
+  line-height:26px;
+  color: #222222;
+  font-weight:400;
+  padding-left:35px;
+  margin-bottom: 12px;
+}
+
+.list-style-one li:before {
+    content: "\f058";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    display: block;
+    font-size: 18px;
+    padding: 0px;
+    color: #ff2222;
+    font-weight: 600;
+    -moz-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1.6;
+    font-family: "Font Awesome 5 Free";
+}
+
+.list-style-one li a:hover{
+  color: #44bce2;
+}
+
+.btn-style-one{
+  position: relative;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-weight: 600;
+  overflow: hidden;
+  letter-spacing: 0.02em;
+  background-color: rgb(255, 191, 0);
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.btn-style-one:hover{
+  background-color: #000;
+  color:#fff;
+  border-radius: 4px;
+
+}
+.about-section{
+  position: relative;
+  padding: 120px 0 70px;
+}
+
+.about-section .sec-title{
+  margin-bottom: 45px;
+}
+
+.about-section .content-column{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.about-section .content-column .inner-column{
+  position: relative;
+  padding-left: 30px;
+}
+
+.about-section .text{
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #848484;
+  font-weight: 400;
+}
+
+.about-section .list-style-one{
+  margin-bottom: 45px;
+}
+
+.about-section .btn-box{
+  position: relative;
+}
+
+.about-section .btn-box a{
+  padding: 15px 50px;
+}
+
+.about-section .image-column{
+  position: relative;
+}
+
+.about-section .image-column .text-layer{
+    position: absolute;
+    right: -110px;
+    top: 50%;
+    font-size: 325px;
+    line-height: 1em;
+    color: #ffffff;
+    margin-top: -175px;
+    font-weight: 500;
+}
+
+.about-section .image-column .inner-column{
+  position: relative;
+  padding-left: 80px;
+  padding-bottom: 0px;
+}
+.about-section .image-column .inner-column .author-desc{
+    position: absolute;
+    bottom: 16px;
+    z-index: 1;
+    background: orange;
+    padding: 10px 15px;
+    left: 96px;
+    width: calc(100% - 152px);
+    border-radius: 50px;
+}
+.about-section .image-column .inner-column .author-desc h2{
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+  margin: 0;
+}
+.about-section .image-column .inner-column .author-desc span{
+    font-size: 16px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #fff;
+  display: block;
+  font-weight: 400;
+}
+.about-section .image-column .inner-column:before{
+    content: '';
+    position: absolute;
+    width: calc(50% + 80px);
+    height: calc(100% + 160px);
+    top: -80px;
+    left: -3px;
+    background: transparent;
+    z-index: 0;
+    border: 44px solid rgb(255, 191, 0);
+}
+
+.about-section .image-column .image-1{
+  position: relative;
+}
+.about-section .image-column .image-2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.about-section .image-column .image-2 img,
+.about-section .image-column .image-1 img{
+  box-shadow: 0 30px 50px rgba(8,13,62,.15);
+      border-radius: 46px;
+}
+
+.about-section .image-column .video-link{
+  position: absolute;
+  left: 70px;
+  top: 170px;
+}
+
+.about-section .image-column .video-link .link{
+  position: relative;
+  display: block;
+  font-size: 22px;
+  color: #191e34;
+  font-weight: 400;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 30px 50px rgba(8,13,62,.15);
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.about-section .image-column .video-link .link:hover{
+  background-color: #191e34;
+}
+  </style>
+
+
+
+
+
+  </head>
+
+
+  <body class="">
+
+
+    <div class="humberger__menu__overlay" id="overlay1"></div>
+
+
+    <header>
+
+      <div class="container-fluid nav-bg px-3">
+
+
+        <div class="navBar" id="home">
+
+
+          <button class="hamburger hiden" id="toggle">
+            <div class="bar"></div>
+          </button>
+          <a href="./index.html" class="log1"><img src="./images/log23.png" width="150px" height="auto"></a>
+          <nav class="">
+
+            <a href="index.html" class="hovr"><i class="fa-sharp fa-solid fa-house"></i></i>HOME</a>
+            <a href="About.html" class="hovr"><i class="fa fa-ship " aria-hidden="true"></i>About</a>
+
+            <a href="Services.html" class="hovr"><i class="fa fa-taxi " aria-hidden="true"></i>Services</a>
+
+            <a href="Contact.html" class="hovr"><i class="fa-solid fa-phone"></i>Contact Us</a>
+
+
+          </nav>
+
+
+
+
+        </div>
+      </div>
+    </header>
+
+
+    <nav class="mobile-nav">
+
+      <div>
+        <a href="index.html"><i class="fa fa-cart-plus " aria-hidden="true"></i>HOme</a>
+      </div>
+      <div>
+        <a href="About.html"><i class="fa fa-hospital-o " aria-hidden="true"></i>About
+      </div>
+      <div>
+        <a href="Services.html"><i class="fa fa-taxi " aria-hidden="true"></i>Services</a>
+      </div>
+      <div>
+        <a href="Contact.html"><i class="fa fa-ship" aria-hidden="true"></i>Contact Us</a>
+      </div>
+
+      <div>
+        <button class="btn login"><i class="fa fa-user" aria-hidden="true"></i>LogIn</button>
+
+      </div>
+
+      <h5 class="socialIcon text-center">
+
+        <a href="#" class="socialMedia"><i class="fa-brands fa-square-facebook"></i></a>
+
+        <a href="#" class="socialMedia1"><i class="fa-brands fa-twitter"></i></a>
+
+        <a href="#" class="socialMedia2"><i class="fa-brands fa-linkedin"></i></a>
+
+        <a href="#" class="socialMedia3"><i class="fa-brands fa-youtube"></i></a>
+
+      </h5>
+
+    </nav>
+
+    <section class="about-section" style="margin-top: 90px;">
+      <div class="container">
+          <div class="row">                
+              <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+                  <div class="inner-column">
+                      <div class="sec-title">
+                          <span class="title">About Css3transition</span>
+                          <h2>We are Creative Tech Enthusiast working since 2015</h2>
+                      </div>
+                      <div class="text">I am Rahul Yaduvanshi works at Css3 Transition since last 3 years. We are here to provide touch notch solution for your website or web application that helps you to make your website look attractive & efficient in handling by creating usefull plugins thats you need.</div>
+                    <div class="text">
+                      We are here to serve you next level tutorial that currently in trend to match you with your expertise. Css3 transition is a learning website. where you can find many good quality content related to web development and tutorials about plugins. here we are using html, html5, css, css3, jquery & javascript along with inspirational UI design layout by professionals by using Photoshop and adobe allustrator.
+                    </div>
+                      <div class="btn-box">
+                          <a href="#" class="theme-btn btn-style-one">About Us</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image Column -->
+              <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                  <div class="inner-column wow fadeInLeft">
+                    
+                      <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="./images/car13.png" alt=""></a></figure>
+                   
+                  </div>
+              </div>
+            
+          </div>
+          
+         <div class="sec-title">
+                          <span class="title">Our Future Goal</span>
+                          <h2>We want to lead in innovation & Technology</h2>
+                      </div>
+                      
+        <div class="text">
+              We works on UI/UX and functionality as well so that a plugins comes with proper stucture & stunning looks which suits to your web app & website.
+            </div>
+             <div class="text">
+              We take a small toolkit here and ride it well so that it is fit for your use. One who performs well and looks even better.
+            </div>
+             <div class="text">                
+Here we are trying to give you all kinds of technical content, whether it is related to designing or functionality. We are creating content on a lot of languages and will continue to make it free of cost even if you use it without any problem. Which is a very important thing.
+            </div>
+             <div class="text">
+              Here you can also share the content you create, if our technical team likes it, then we will also share it on our blog.
+            </div>
+             <div class="text">
+              
+In the end, I would say keep visiting our website and enjoy the quality content.
+            </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 col-xs-12">
+            <div class="single_footer single_footer_address">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="#">Maintenance, Repair & Warranty</a></li>
+                <li><a href="#">Sell your Car</a></li>
+                <li><a href="#">Ongoing Service Benefits</a></li>
+                <li><a href="#">Vehicle Owner</a></li>
+                <li><a href="#">Collections and Accessories</a></li>
+                <li><a href="#">Book your servics appointment</a></li>
+                <li><a href="#">Breakdown and Damage Assistance</a></li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 mar">
+            <div class="single_footer single_footer_address">
+              <h4>About Us</h4>
+              <ul>
+                <li><a href="#">Environment & Sustainablity</a></li>
+                <li><a href="#">Nearest Showroom</a></li>
+                <li><a href="#">Press Release</a></li>
+                <li><a href="#">Owner's Manual</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Model Overview</a></li>
+                <li><a href="#">Grievances Redressal Mechanism</a></li>
+
+
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="single_footer single_footer_address">
+              <h4>Find Us</h4>
+              <div class="signup_form">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.329986119933!2d85.84705161492033!3d20.28660398640506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190a0197fbe3e7%3A0x18d863d97b40785a!2sSwadhin%20IT%20Solutions!5e0!3m2!1sen!2sin!4v1680688632241!5m2!1sen!2sin"
+                  width="100%" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              </div>
+            </div>
+            <div class="social_profile">
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-xs-12">
+            <p class="copyright">Copyright © 2023 <a href="#">CarRental</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+
+    <script>
+
+      window.onload = function () {
+
+
+        const menu_btn = document.querySelector('.hamburger');
+        const mobile_menu = document.querySelector('.mobile-nav');
+        const mobile_lay = document.querySelector('.humberger__menu__overlay');
+
+
+        menu_btn.addEventListener('click', function () {
+          menu_btn.classList.toggle('is-active');
+          mobile_menu.classList.toggle('is-active');
+          mobile_lay.classList.toggle('active');
+          $('body').toggleClass('over_hid');
+
+
+        });
+
+      }
+
+      $(".humberger__menu__overlay").on('click', function () {
+        $(".hamburger").removeClass("is-active");
+        $(".mobile-nav").removeClass("show__humberger__menu__wrapper");
+        $(".humberger__menu__overlay").removeClass("active");
+        $(".mobile-nav").removeClass("is-active");
+        $("body").removeClass("over_hid");
+      });
+
+    </script>
+
+
+
+
+
+
+
+  </body>
+
+</html>
